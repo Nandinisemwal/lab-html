@@ -1,0 +1,19 @@
+:root {
+    font-size: 2em;
+}
+/*___________________
+steps to add every context at the center of the page
+_____________*/
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.title {
+    text-align: center;
+}

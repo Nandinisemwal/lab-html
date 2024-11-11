@@ -27,3 +27,10 @@ h2 {
     padding: 15px;
     width: fit-content;
 }
+
+p {
+    background-color: #a5b5b4;
+    color:rgb(41, 56, 58);
+    padding: 20px 0;
+    text-align: center;
+}

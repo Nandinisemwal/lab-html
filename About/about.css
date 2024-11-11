@@ -1,5 +1,5 @@
 :root {
-    font-size: 2em;
+    font-size: 20px;
 }
 /*_____________
 Background color
@@ -15,10 +15,6 @@ header {
     color: rgb(9, 29, 23);
     padding: 20px 0;
     text-align: center;
-}
-
-header {
-    padding: 20px 0;
 }
 
 h2 {

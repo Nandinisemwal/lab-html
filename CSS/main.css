@@ -10,7 +10,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: antiquewhite;
+    background-color: rgb(237, 177, 194);
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -19,11 +19,11 @@ body {
 }
 
 h1 {
-    color:rgb(117, 97, 178)
+    color:rgb(45, 77, 133)
 }
 
 h2 {
-    color: rgb(154, 132, 218);
+    color: rgb(57, 86, 139);
 }
 
 nav {
@@ -32,10 +32,10 @@ nav {
 
 nav a {
     text-decoration:underline;
-    color: rgb(188, 184, 238);
+    color: rgb(99, 112, 161);
 }
 
 nav a:hover {
-    background-color: rgb(194, 93, 137);
-    color: rgb(9, 13, 17);
+    background-color: rgb(234, 72, 112);
+    color: rgb(236, 235, 226);
 }

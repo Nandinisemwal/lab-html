@@ -45,7 +45,15 @@ h3 {
 
 img {
     border: 4px rgb(52, 92, 88);
-  border-style: groove;
-  box-shadow: 2px 3px 4px rgb(122, 150, 147);
-  padding: 2px;
+    border-style: groove;
+    box-shadow: 2px 3px 4px rgb(122, 150, 147);
+    padding: 2px;
+}
+
+h4 {
+    background-color: rgb(77, 155, 173);
+    color: rgb(238, 237, 217);
+    width: fit-content;
+    padding: 4px;
+    text-align: left;
 }

@@ -36,13 +36,15 @@ p {
 }
 
 h3 {
-    background-color: #5a9e98;
+    background-color: #6fc9c1;
     color:rgb(238, 237, 217);
     text-align: left;
     width: fit-content;
     padding: 20px 0;
 }
-
+/*_______________
+Add border and shaows to the images
+________________-*/
 img {
     border: 4px rgb(52, 92, 88);
     border-style: groove;
@@ -51,9 +53,21 @@ img {
 }
 
 h4 {
-    background-color: rgb(77, 155, 173);
-    color: rgb(238, 237, 217);
+    background-color: #3fa0a3;
+    color: rgb(217, 237, 238);
     width: fit-content;
     padding: 4px;
     text-align: left;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(209, 239, 231);
+    color: rgb(5, 50, 90);
+}
+
+nav a:hover {
+    border-radius: 4px;
+    background-color: rgb(0, 238, 255);
+    color:rgb(2, 30, 42);
 }

@@ -17,3 +17,25 @@ body {
 .title {
     text-align: center;
 }
+
+h1 {
+    color:rgb(117, 97, 178)
+}
+
+h2 {
+    color: rgb(154, 132, 218);
+}
+
+nav {
+    margin: 20px 0;
+}
+
+nav a {
+    text-decoration:underline;
+    color: rgb(188, 184, 238);
+}
+
+nav a:hover {
+    background-color: rgb(194, 93, 137);
+    color: rgb(9, 13, 17);
+}

@@ -1,12 +1,29 @@
 :root {
     font-size: 2em;
 }
+/*_____________
+Background color
+_______________*/
+body {
+    background-color: rgb(238, 237, 217);
+}
 /*____________
-Header styles
+Header style
 _______________*/
 header {
-    background-color: rgb(90, 158, 152);
+    background-color: #5a9e98;
     color: rgb(9, 29, 23);
     padding: 20px 0;
     text-align: center;
+}
+
+header {
+    padding: 20px 0;
+}
+
+h2 {
+    background-color: #5a9e98;
+    color:rgb(238, 237, 217);
+    padding: 15px;
+    width: fit-content;
 }

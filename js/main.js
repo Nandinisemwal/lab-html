@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 //add alert button to display Hello, world!
 
-const alertButton = document.getElementByIdElement("btn-alert");
+const alertButton = document.getElementById("btn-alert");
 alertButton.addEventListener("click", function () {
     alert("you are the best"); // Now you have the alert displayed 
 })
@@ -20,11 +20,11 @@ alertButton.addEventListener("mouseover", function () {
     alertButton.textContent = "Hey, What'sup!";
 });
 
-alertButton.addEventListener("mouseout", function () {
+alertButton.addEventListener("mouseout", function () {//alert button function
     alertButton.textContent = "Click Me";
 });
 const hoverButton = document.getElementById("btn-hover"); //add hover effects
 
-hoverButton.addEventListener("mouseover", fuction () {
-    hoverButton.textContent = "hovering!";
+hoverButton.addEventListener("mouseover", function () {
+    hoverButton.textContent = "hover!";
 });

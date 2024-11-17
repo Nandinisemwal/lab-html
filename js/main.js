@@ -17,7 +17,7 @@ alertButton.addEventListener("click", function () {
 
 //how to add hover functions
 alertButton.addEventListener("mouseover", function () {
-    alertButton.textContent = "HOHO!";
+    alertButton.textContent = "You are the Best";
 });
 
 alertButton.addEventListener("mouseout", function () {

@@ -28,3 +28,7 @@ const hoverButton = document.getElementById("btn-hover"); //add hover effects
 hoverButton.addEventListener("mouseover", function () {
     hoverButton.textContent = "hover!";
 });
+
+hoverButton.addEventListener("mouseout", function () { 
+    hoverButton.textContent = "Hover for a  surprise!";
+});

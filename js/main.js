@@ -12,5 +12,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
 const alertButton = document.getElementByIdElement("btn-alert");
 alertButton.addEventListener("click", function () {
-    alert("Hey What's up!");
+    alert("Hey What's up!"); // Now you have the alert button 
 })
+
+//how to add hover functions
+alertButton.addEventListener("mouseover", function () {
+    alertButton.textContent = "HOHO!";
+});
+
+alertButton.addEventListener("mouseout", function () {
+    alertButton.textContent = "Click Me";
+});

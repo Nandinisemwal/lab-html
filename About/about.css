@@ -29,12 +29,21 @@ _______________*/
 }
 
 /*________
-Color according to time
+Morning color according to time
 __________*/
 .morning {
     background-color: #9ac0e3;
-    border: black;
+    border: rgb(65, 62, 62);
 }
+
+/*______________
+afternoon color
+___________*/
+.afternoon {
+    background-color: #3e89ca;
+    border: rgb(53, 50, 50);
+}
+
 h2 {
     background-color: #5a9e98;
     color:rgb(238, 237, 217);

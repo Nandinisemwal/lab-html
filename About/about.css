@@ -44,6 +44,15 @@ ___________*/
     border: rgb(53, 50, 50);
 }
 
+/*________________
+evening color
+__________*/
+.evening {
+    background-color: #082a48;
+    text-decoration-color: #9ac0e3;
+    border: #2d3030;
+}
+
 h2 {
     background-color: #5a9e98;
     color:rgb(238, 237, 217);

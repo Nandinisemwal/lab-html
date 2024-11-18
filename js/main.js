@@ -50,6 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
 //typewritting effect for the heading
 
 
+
 //Add greetings according to time in the home page
 document.addEventListener('DOMContentLoaded', () => {
     const currentHour = new Date().getHours();

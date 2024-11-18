@@ -1,19 +1,17 @@
 /* 
 Add current year to the footer
 */
-document.addEventListener('DOMContentLoaded', () => {
-    const currentYear = new Date().getFullYear();
-    const copyright = document.getElementById('copyright');
-    copyright.textContent = `(c) ${currentYear}, Nandini Semwal`;
-    console.log(currentYear);
-})
+const today = new Date();
+let fYear;
+fYear.textContent = today.getFullYear();
+document.getElementById('footerYear').innerHTML = fYear;
 
 //add alert button to display Hello, world!
 
 const alertButton = document.getElementById("btn-alert");
 alertButton.addEventListener("click", function () {
     alert("You are the Best"); // Now you have the alert displayed 
-})
+});
 
 //how to add hover functions
 alertButton.addEventListener("mouseover", function () {

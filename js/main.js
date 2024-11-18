@@ -1,11 +1,11 @@
 /* 
 Add current year to the footer
 */
-
 document.addEventListener('DOMContentLoaded', () => {
     const currentYear = new Date().getFullYear();
     const copyright = document.getElementById('copyright');
     copyright.textContent = `(c) ${currentYear}, Nandini Semwal`;
+    console.log(currentYear);
 })
 
 //add alert button to display Hello, world!

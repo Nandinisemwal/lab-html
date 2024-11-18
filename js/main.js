@@ -2,8 +2,7 @@
 Add current year to the footer
 */
 const today = new Date();
-let fYear;
-fYear.textContent = today.getFullYear();
+let fYear = today.getFullYear();
 document.getElementById('footerYear').innerHTML = fYear;
 
 //add alert button to display Hello, world!

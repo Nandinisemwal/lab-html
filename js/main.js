@@ -34,22 +34,14 @@ hoverButton.addEventListener("mouseout", function () {
 });
 
 //Add loop in list with odd and even numbers
-document.addEventListener('DOMContentLoaded', () => {
-    const olElement = document.getElementById('numbers');
-    for (let i = 1; i <= 12; i++) {
-        const listItem = document.createElement('li');
-        if (i % 2 === 0) {
-            listItem.textContent = `${1} - Even`;
-        } else {
-            listItem.textContent = `${i} - Odd`;
-        }
-        olElement.appendChild(listItem);
+const numberList = document.getElementById("number");
+if (numberList) {
+    for (let i = 1; i <= 12; i++){
+        const listItem = document.createElement("li");
+        listItem.textContent = `${1} is ${i % 2 === 0 ? "even" : "odd"}`;
+        numberList.appendChild(listItem);
     }
-});
-
-//typewritting effect for the heading
-
-
+}
 
 //Add greetings according to time in the home page
 document.addEventListener('DOMContentLoaded', () => {

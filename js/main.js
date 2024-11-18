@@ -51,4 +51,18 @@ document.addEventListener('DOMContentLoaded', () => {
 document.addEventListener('DOMContentLoaded', () => {
     const currentHour = new Date().getHours();
     const greetingElement = documen.getElementById("greeting");
+//Add greeting message and class
+let greetingMessage = "";
+let greetingClass = "";
+
+    if (currentHour < 12) {
+        greetingMessage = "Good Morning!";
+        greetingClass = "Morning";
+    } else if (currentHour < 18) {
+        greetingMessage = "Good Afternoon!";
+        greetingClass = "Afternoon";
+    } else {
+        greetingMessage = "Good Evening!";
+        greetingClass = "Evening";
+    }
 })

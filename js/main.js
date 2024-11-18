@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
 //Add greetings according to time in the home page
 document.addEventListener('DOMContentLoaded', () => {
     const currentHour = new Date().getHours();
-    const greetingElement = documen.getElementById("greeting");
+    const greetingElement = document.getElementById("greeting");
 //Add greeting message and class
 let greetingMessage = "";
 let greetingClass = "";
@@ -65,4 +65,6 @@ let greetingClass = "";
         greetingMessage = "Good Evening!";
         greetingClass = "Evening";
     }
-})
+greetingElement.textContent = greetingMessage;
+greetingElement.classList.add(greetingClass);
+});

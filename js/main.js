@@ -5,7 +5,7 @@ Add current year to the footer
 document.addEventListener('DOMContentLoaded', () => {
     const currentYear = new Date().getFullYear();
     const copyright = document.getElementById('copyright');
-    copyright.textContent = ` ${currentYear}, Nandini Semwal`;
+    copyright.textContent = `(c) ${currentYear}, Nandini Semwal`;
 })
 
 //add alert button to display Hello, world!

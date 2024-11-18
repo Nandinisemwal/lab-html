@@ -45,7 +45,10 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         olElement.appendChild(listItem);
     }
-})
+});
+
+//typewritting effect for the heading
+
 
 //Add greetings according to time in the home page
 document.addEventListener('DOMContentLoaded', () => {

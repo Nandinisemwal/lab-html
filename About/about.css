@@ -17,6 +17,17 @@ header {
     text-align: center;
 }
 
+/*___________________
+CSS TO GREETINGS
+_______________*/
+greeting {
+    text-align: center;
+    border: #a5b5b4;
+    padding: 30px;
+    background-color: rgb(239, 199, 228);
+    font-style: oblique;
+    
+}
 h2 {
     background-color: #5a9e98;
     color:rgb(238, 237, 217);
@@ -77,6 +88,3 @@ button {
     text-align: center;
 }
 
-/*___________________
-CSS TO GREETINGS
-_______________*/

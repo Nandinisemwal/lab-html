@@ -18,6 +18,7 @@ header {
 }
 
 h2 {
+    text-align: center;
     background-color: #5a9e98;
     color:rgb(238, 237, 217);
     padding: 15px;

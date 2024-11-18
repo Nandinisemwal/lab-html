@@ -20,13 +20,13 @@ header {
 /*___________________
 CSS TO GREETINGS
 _______________*/
-greeting {
+#greeting {
     text-align: center;
     border: #a5b5b4;
     padding: 30px;
     background-color: rgb(239, 199, 228);
     font-style: oblique;
-    
+
 }
 h2 {
     background-color: #5a9e98;

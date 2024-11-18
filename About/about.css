@@ -24,10 +24,16 @@ _______________*/
     text-align: center;
     border: #a5b5b4;
     padding: 30px;
-    background-color: rgb(48, 62, 84);
     font-style: oblique;
-    margin: 100px 710px;
+    margin: 100px 720px;
+}
 
+/*________
+Color according to time
+__________*/
+.morning {
+    background-color: #9ac0e3;
+    border: black;
 }
 h2 {
     background-color: #5a9e98;

@@ -46,3 +46,9 @@ document.addEventListener('DOMContentLoaded', () => {
         olElement.appendChild(listItem);
     }
 })
+
+//Add greetings according to time in the home page
+document.addEventListener('DOMContentLoaded', () => {
+    const currentHour = new Date().getHours();
+    const greetingElement = documen.getElementById("greeting");
+})

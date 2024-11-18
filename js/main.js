@@ -57,14 +57,15 @@ let greetingClass = "";
 
     if (currentHour < 12) {
         greetingMessage = "Good Morning!";
-        greetingClass = "Morning";
+        greetingClass = "morning";
     } else if (currentHour < 18) {
         greetingMessage = "Good Afternoon!";
-        greetingClass = "Afternoon";
+        greetingClass = "afternoon";
     } else {
         greetingMessage = "Good Evening!";
-        greetingClass = "Evening";
+        greetingClass = "evening";
     }
 greetingElement.textContent = greetingMessage;
+
 greetingElement.classList.add(greetingClass);
 });
